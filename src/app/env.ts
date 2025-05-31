@@ -4,10 +4,8 @@ const env = {
     appwrite: {
         endpoint: String(process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT),
         projectID: String(process.env.NEXT_PUBLIC_APPWRITE_PROJECT_ID),
+        apikey: String(process.env.APPWRITE_API_KEY),
     },
-    next: {
-        url: process.env.NEXT_PUBLIC_URL,
-    }
 }
 
 export default env
