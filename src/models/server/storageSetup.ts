@@ -20,7 +20,7 @@ export default async function getOrCreateStorage() {
             undefined,
             ['jpg', 'png', 'gif', 'jpeg', 'webp', 'pdf', 'heic'],
         )
-        console.log('Storage connected')
+        console.log('Storage created')
         console.log('Storage connected')
         } catch (error) {
             console.error("Error creating storage", error)
